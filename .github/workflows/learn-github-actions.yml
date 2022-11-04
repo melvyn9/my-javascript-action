@@ -3,6 +3,8 @@ run-name: ${{ github.actor }} is trying HTML Check
 
 on:
   push:
+    paths:
+      - "test.html"
 
 
 jobs:
@@ -13,7 +15,7 @@ jobs:
     - name: Checks HTML5
       uses: Cyb3r-Jak3/html5validator-action@<latest version>
       with:
-        root: test.html
+        root: tests/
 
     - name: HTML5 Validator
       uses: Cyb3r-Jak3/html5validator-action@v7.1.1
