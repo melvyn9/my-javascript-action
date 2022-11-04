@@ -3,8 +3,6 @@ run-name: ${{ github.actor }} is trying HTML Check
 
 on:
   push:
-    paths:
-      - "index.html"
 
 
 jobs:
