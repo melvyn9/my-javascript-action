@@ -14,3 +14,6 @@ jobs:
       uses: Cyb3r-Jak3/html5validator-action@<latest version>
       with:
         root: test.html
+
+    - name: HTML5 Validator
+      uses: Cyb3r-Jak3/html5validator-action@v7.1.1
