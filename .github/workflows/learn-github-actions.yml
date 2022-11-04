@@ -13,4 +13,4 @@ jobs:
     - name: Checks HTML5
       uses: Cyb3r-Jak3/html5validator-action@<latest version>
       with:
-        root: <path/to/your/files>
+        root: test.html
